@@ -8,11 +8,11 @@ contract PriceConsumer {
     FeedRegistryInterface internal registry;
 
     /**
-     * Network: Mainnet Alpha Preview
-     * Feed Registry: 0xd441F0B98BcF34749391A3879A94caA95ffDB74D
+     * Network: Ethereum Mainnet
+     * Feed Registry: 0x47Fb2585D2C56Fe188D0E6ec628a38b74fCeeeDf
      */
     constructor() {
-        registry = FeedRegistryInterface(0xd441F0B98BcF34749391A3879A94caA95ffDB74D);
+        registry = FeedRegistryInterface(0x47Fb2585D2C56Fe188D0E6ec628a38b74fCeeeDf);
     }
 
     /**
