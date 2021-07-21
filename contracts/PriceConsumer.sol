@@ -18,14 +18,14 @@ contract PriceConsumer {
     /**
      * Returns the latest price
      */
-    function getThePrice(address asset, address denomination) public view returns (int) {
+    function getThePrice(address base, address quote) public view returns (int) {
         (
             uint80 roundID, 
             int price,
             uint startedAt,
             uint timeStamp,
             uint80 answeredInRound
-        ) = registry.latestRoundData(asset, denomination);
+        ) = registry.latestRoundData(base, quote);
         return price;
     }
 }
