@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@chainlink/contracts@0.2.0-rc1":
-  version "0.2.0-rc1"
-  resolved "https://registry.yarnpkg.com/@chainlink/contracts/-/contracts-0.2.0-rc1.tgz#53840fc910d6fa868913a699e5b1d9e7b99e6bca"
-  integrity sha512-vTpGf6VsivORW6d8q+o7NoGVVHQ+HP2xMaPFJzDzfrQmotpi+g47lg1H3Z181uYvKryWqcszwSVtbmytSQBNzw==
+"@chainlink/contracts@0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@chainlink/contracts/-/contracts-0.2.1.tgz#0815901baa4634b7b41b4e747f3425e2c968fb85"
+  integrity sha512-mAQgPQKiqW3tLMlp31NgcnXpwG3lttgKU0izAqKiirJ9LH7rQ+O0oHIVR5Qp2yuqgmfbLsgfdLo4GcVC8IFz3Q==
 
 "@ensdomains/ens@^0.4.4":
   version "0.4.5"
